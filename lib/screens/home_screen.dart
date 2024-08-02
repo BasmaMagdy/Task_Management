@@ -188,29 +188,21 @@ class _HomeScreenState extends State<HomeScreen> {
                   width: MediaQuery.of(context).size.width,
                   child: Row(
                     children: [
-                      Container(
-                        padding: const EdgeInsets.symmetric(horizontal: 20.0),
-                        margin: const EdgeInsets.symmetric(horizontal: 50.0),
-                        width: (MediaQuery.of(context).size.width / 5) - 43,
-                        child: ElevatedButton(
-                          child: Text(
-                            'RESET',
-                            style: GoogleFonts.montserrat(),
-                          ),
-                          onPressed: () => _taskController.clear(),
+                      ElevatedButton(
+                        child: Text(
+                          'RESET',
+                          style: GoogleFonts.montserrat(),
                         ),
+                        onPressed: () => _taskController.clear(),
                       ),
-                      Container(
-                        padding: const EdgeInsets.symmetric(horizontal: 20.0),
-                        width: (MediaQuery.of(context).size.width / 5) - 43,
-                        child: ElevatedButton(
-                          child: Text(
-                            'ADD',
-                            style: GoogleFonts.montserrat(),
-                          ),
-                          onPressed: () => saveData(),
+                      const SizedBox(width: 5, height: 5),
+                      ElevatedButton(
+                        child: Text(
+                          'ADD',
+                          style: GoogleFonts.montserrat(),
                         ),
-                      ),
+                        onPressed: () => saveData(),
+                      )
                     ],
                   ),
                 ),
