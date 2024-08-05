@@ -15,5 +15,6 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
-#Brief about the Mobile Application
+# Brief about the Mobile Application.
+
 A Task Management mobile application built using Flutter allows users to efficiently organize, prioritize, and track their tasks and to-dos. Flutter, an open-source UI software development kit created by Google, enables developers to build natively compiled applications for mobile, web, and desktop from a single codebase.
